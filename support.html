@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DCM 文件查看器使用支持 / DCM File Viewer Support">
+  <meta name="app-store-validation" content="DCM File Viewer Support">
+  <title>支持 | DCM 文件查看器</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="主导航">
+      <a class="brand" href="support.html">DCM 文件查看器</a>
+      <div class="nav-links">
+        <a href="privacy.html">隐私 / Privacy</a>
+        <a href="#chinese">中文</a>
+        <a href="#english">English</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="intro">
+      <h1>产品支持 / Product Support</h1>
+      <p>查找导入、查看、隐私和故障排除信息。Find help for importing, viewing, privacy, and troubleshooting.</p>
+      <p class="meta">适用于 iOS/iPadOS 17 或更高版本 · For iOS/iPadOS 17 or later</p>
+      <div class="language-links">
+        <a href="#chinese">简体中文支持</a>
+        <a href="#english">English support</a>
+      </div>
+    </div>
+
+    <article id="chinese" class="language-section" lang="zh-Hans">
+      <h2>简体中文支持</h2>
+
+      <div class="notice">
+        <strong>不用于诊断或治疗</strong>
+        本应用仅供一般文件查看和学习参考。如需诊断性解读，请咨询具备相应资质的专业人员；紧急情况请立即联系当地急救服务。
+      </div>
+
+      <div class="support-grid">
+        <section>
+          <h3>导入影像</h3>
+          <ol class="steps">
+            <li>打开“资料库”，点按右上角“导入”。</li>
+            <li>选择“导入文件”或“导入文件夹”。</li>
+            <li>在系统“文件”界面中选择 DCM/DICOM 内容。</li>
+            <li>等待扫描与本地保存完成，再打开序列。</li>
+          </ol>
+        </section>
+
+        <section>
+          <h3>查看影像</h3>
+          <ul>
+            <li>浏览：上下拖动或使用序列滑块。</li>
+            <li>窗位：拖动调节窗宽与窗位，或使用预设。</li>
+            <li>平移与缩放：选择工具后拖动，也可双指缩放。</li>
+            <li>工具栏还提供播放、旋转、反色和重置。</li>
+            <li>点按信息按钮查看 DICOM 元数据。</li>
+          </ul>
+        </section>
+      </div>
+
+      <h3>兼容性</h3>
+      <p>应用面向常见的未压缩 DICOM 影像及若干常用压缩传输语法。部分视频 DICOM、流式内容、专用传输语法或复杂增强型多帧对象可能无法完整显示。遇到不支持的内容时，应用会显示错误而不是把未知数据当作有效影像。</p>
+
+      <h3>常见问题</h3>
+      <p><strong>选择文件后没有出现影像</strong><br>确认文件是有效 DICOM，而不是仅更改了扩展名。尝试导入包含完整检查的文件夹，并等待云端文件先下载完成。</p>
+      <p><strong>影像全黑、全白或对比度不合适</strong><br>尝试“软组织”“肺窗”“骨窗”或“脑窗”预设，也可以使用窗位工具手动调节。某些文件包含特殊显示参数，当前版本可能不支持。</p>
+      <p><strong>切片顺序不正确</strong><br>应用优先使用 DICOM 几何位置排序，并在缺少相关标签时回退到实例编号。若源文件缺少或写入了错误标签，请向文件提供方获取完整、正确导出的序列。</p>
+      <p><strong>导入失败或设备存储不足</strong><br>在系统“设置”中检查可用存储空间。大文件、文件数量过多、损坏文件或不支持的像素格式可能被安全拒绝。</p>
+
+      <h3>隐私与删除</h3>
+      <p>导入后的影像保存在应用的本地受保护空间，不上传给开发者或第三方。您可以左滑删除单个序列，或在“设置”中删除全部影像。详情请阅读<a href="privacy.html">隐私政策</a>。</p>
+
+      <h3>联系支持</h3>
+      <p>邮箱：<a href="mailto:chenttgmai@gmail.com">chenttgmai@gmail.com</a></p>
+      <p>联系时请提供应用版本、iOS/iPadOS 版本、设备型号、影像模态、传输语法（如可见）和错误提示。<strong>请勿通过普通电子邮件发送真实患者 DICOM 文件、含患者姓名的截图或其他可识别敏感信息。</strong>如需提供样例，请先使用合适工具完成匿名化，或使用合成测试文件。</p>
+    </article>
+
+    <article id="english" class="language-section" lang="en">
+      <h2>English support</h2>
+
+      <p class="meta">The current app interface is Simplified Chinese. The steps below show the visible Chinese label beside its English meaning.</p>
+
+      <div class="notice">
+        <strong>Not for diagnosis or treatment</strong>
+        This app is for general file viewing and educational reference only. For diagnostic interpretation, consult a qualified professional, and contact local emergency services in an emergency.
+      </div>
+
+      <div class="support-grid">
+        <section>
+          <h3>Import images</h3>
+          <ol class="steps">
+            <li>Open Library (资料库) and tap Import (导入) in the top-right corner.</li>
+            <li>Choose Import File (导入文件) or Import Folder (导入文件夹).</li>
+            <li>Select DCM/DICOM content in the system Files interface.</li>
+            <li>Wait for scanning and local storage to finish, then open the series.</li>
+          </ol>
+        </section>
+
+        <section>
+          <h3>View images</h3>
+          <ul>
+            <li>Browse: drag vertically or use the series slider.</li>
+            <li>Window/level: drag with the window tool or choose a preset.</li>
+            <li>Pan and zoom: select a tool and drag; pinch to zoom also works.</li>
+            <li>The toolbar also provides playback, rotation, inversion, and reset.</li>
+            <li>Tap the information button to inspect DICOM metadata.</li>
+          </ul>
+        </section>
+      </div>
+
+      <h3>Compatibility</h3>
+      <p>The app is designed for common uncompressed DICOM images and several widely used compressed transfer syntaxes. Some video DICOM, streamed content, specialized transfer syntaxes, or complex enhanced multi-frame objects may not display completely. Unsupported content produces an error instead of being treated as a valid image.</p>
+
+      <h3>Troubleshooting</h3>
+      <p><strong>No image appears after selecting a file</strong><br>Confirm that it is a valid DICOM file, not only a renamed extension. Try importing the complete study folder, and allow a cloud-hosted file to finish downloading first.</p>
+      <p><strong>The image is black, white, or has poor contrast</strong><br>Try the soft-tissue, lung, bone, or brain preset, or adjust window and level manually. Some files contain specialized display parameters that this version may not support.</p>
+      <p><strong>Slices appear out of order</strong><br>The app prefers DICOM geometry for sorting and falls back to instance number when geometry tags are missing. Ask the file provider for a complete, correctly exported series if the source contains missing or incorrect tags.</p>
+      <p><strong>Import fails or storage is low</strong><br>Check available storage in system Settings. Very large imports, too many files, damaged files, or unsupported pixel formats may be rejected for safety.</p>
+
+      <h3>Privacy and deletion</h3>
+      <p>Imported images remain in protected local app storage and are not uploaded to the developer or third parties. Swipe to delete a series or delete all images in Settings. Read the <a href="privacy.html#english">Privacy Policy</a> for details.</p>
+
+      <h3>Contact support</h3>
+      <p>Email: <a href="mailto:chenttgmai@gmail.com">chenttgmai@gmail.com</a></p>
+      <p>Include the app version, iOS/iPadOS version, device model, image modality, transfer syntax when available, and the exact error message. <strong>Do not send real patient DICOM files, screenshots containing patient names, or other identifiable sensitive information through ordinary email.</strong> Use a properly anonymized or synthetic test file if an example is needed.</p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">&copy; 2026 tingting chen · <a href="privacy.html">Privacy Policy</a></div>
+  </footer>
+</body>
+</html>
